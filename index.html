@@ -1,10 +1,44 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Array Generator</title>
-        <link href="style.css">
-    </head>
-    <body>
-        
-    </body>
+
+<head>
+    <title>Array Generator</title>
+    <link href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="top-nav">
+            <select class="language-select select">
+                <option class="select-option">JS</option>
+                <option class="select-option">C#</option>
+            </select>
+            <select class="type-select select">
+                <option class="select-option">Declaratie</option>
+                <option class="select-option">Dupa</option>
+            </select>
+            <select class="var-type-select select">
+                <option class="select-option">String</option>
+                <option class="select-option">Int</option>
+                <option class="select-option">Variabila</option>
+            </select>
+        </nav>
+
+        <input class="array-input" placeholder="Elemente"></textarea>
+        <div class="inputs-parent">
+
+        </div>
+        <textarea class="textarea array-output"></textarea>
+
+        <div class="generate-button button">
+            <span class="button-text">
+                Genereaza
+            </span>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
 </html>
